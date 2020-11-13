@@ -1,0 +1,15 @@
+.container{
+	width: 400px;
+	height: 400px;
+}
+@keyframes moving{
+	from {font-size: 0;}
+	to {font-size: 300%;}
+}
+.text{
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bolder;
+	animation: moving 1s infinite;
+	color: #85aac6;
+}
